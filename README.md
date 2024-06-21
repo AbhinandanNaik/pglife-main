@@ -1,2 +1,2 @@
 PG_Life
-https://abhinandannaik.github.io/pglife-main1/
+https://abhinandannaik.github.io/pglife-main/
