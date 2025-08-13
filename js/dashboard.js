@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
         element.addEventListener("click", function (event) {
             var XHR = new XMLHttpRequest();
             var property_id = event.target.getAttribute("property_id");
-
+ 
             // On success
             XHR.addEventListener("load", remove_interested_success);
 
