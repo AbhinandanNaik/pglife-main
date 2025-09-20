@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
     signup_form.addEventListener("submit", function (event) {
         var XHR = new XMLHttpRequest();
         var form_data = new FormData(signup_form);
-
+ 
         // On success
         XHR.addEventListener("load", signup_success);
 
