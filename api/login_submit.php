@@ -3,7 +3,7 @@ session_start();
 require("../includes/database_connect.php");
 
 $email = $_POST['email'];
-$password = $_POST['password'];
+$password = $_POST['password']; 
 $password = sha1($password);
 
 $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
