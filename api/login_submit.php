@@ -9,7 +9,7 @@ $password = sha1($password);
 $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
 $result = mysqli_query($conn, $sql);
 if (!$result) {
-    $response = array("success" => false, "message" => "Something went wrong!");
+    $response = array("success" => false, "message" => "Something went wrong!"); 
     echo json_encode($response);
     return;
 }
